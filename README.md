@@ -1,10 +1,11 @@
 # Beijing Air Quality Dashboard ☁️
 
-Ini adalah submission proyek akhir kelas **Belajar Analisis Data dengan Python** di Dicoding. Proyek ini menganalisis kualitas udara di wilayah Beijing menggunakan dataset *PRSA (Multi-site Air-Quality Data)* dari tahun 2013 hingga 2017, serta menyediakan dashboard interaktif berbasis **Streamlit**.
+Ini adalah submission proyek akhir kelas **Belajar Fundamental Analisis Data** di Dicoding. Proyek ini menganalisis kualitas udara di wilayah Beijing menggunakan dataset _PRSA (Multi-site Air-Quality Data)_ dari tahun 2013 hingga 2017, serta menyediakan dashboard interaktif berbasis **Streamlit**.
 
 ## 🛠️ Setup Environment
 
 ### Menggunakan Anaconda
+
 ```bash
 conda create --name air-quality-ds python=3.9
 conda activate air-quality-ds
@@ -12,6 +13,7 @@ pip install -r requirements.txt
 ```
 
 ### Menggunakan Venv (Python Bawaan)
+
 ```bash
 python -m venv venv
 venv\Scripts\activate      # Untuk pengguna Windows
@@ -22,7 +24,7 @@ pip install -r requirements.txt
 
 ## 🚀 Cara Menjalankan Dashboard
 
-1. Pastikan semua *library* (seperti `pandas`, `matplotlib`, `seaborn`, dan `streamlit`) sudah terinstal melalui `requirements.txt`.
+1. Pastikan semua _library_ (seperti `pandas`, `matplotlib`, `seaborn`, dan `streamlit`) sudah terinstal melalui `requirements.txt`.
 2. Masuk ke dalam direktori `dashboard` tempat skrip aplikasi berada.
 3. Jalankan perintah `streamlit run`.
 
